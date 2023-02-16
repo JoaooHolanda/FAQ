@@ -14,6 +14,7 @@ body{
     height: 50%;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     flex-direction: column;
     
 }
@@ -61,16 +62,19 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 50px ;
-    height: 50px;
-    flex-direction: column;    
-    
-    
+    height: 100px;
+    width: 500px;
   }
 
   .title h1{
+    margin-bottom: -19px;
     color: #1ed760;
     font-family: 'Baloo 2', bold;
-    font-size: 40px;
+    
+    
+    
+    
+
 
 
     
@@ -78,7 +82,7 @@ body{
   
   .subs{
     color: #ccc;
-    display: flex;
+    display: block;
     width: 50%;
     justify-content:start ;
     font-family: 'Baloo 2', cursive;
