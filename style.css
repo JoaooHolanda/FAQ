@@ -32,7 +32,7 @@ body{
     text-align: left;
     border: none;
     outline: none;
-
+    font-family: 'Baloo 2', bold;
     transition: 0.4s;
   }
   
@@ -49,6 +49,11 @@ body{
     display: none;
     overflow: hidden;
     width: 100%;
+    font-family: 'Baloo 2', bold;
+  }
+
+  .panel p{
+    padding-left: 18px;
   }
 
   .title{
@@ -63,7 +68,11 @@ body{
   }
 
   .title h1{
-    color: #ccc;
+    color: #1ed760;
+    font-family: 'Baloo 2', bold;
+    font-size: 40px;
+
+
     
   }
   
@@ -72,6 +81,7 @@ body{
     display: flex;
     width: 50%;
     justify-content:start ;
+    font-family: 'Baloo 2', cursive;
   }
 
 
