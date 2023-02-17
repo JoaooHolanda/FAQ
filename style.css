@@ -4,18 +4,105 @@ body{
     background-color: #eee;
     overflow-x: hidden;
     overflow-y: auto;
-    margin: 0%;
+    margin: 0;
     height: 100%;
     width: 100%;
     
 }
+/*  -------------------- header ----------------- */
+
+ header {
+  min-width: 100%;
+  min-height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.content_header {
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  width: 1170px;
+  min-height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content_header img {
+  width: 132px;
+  height: 40px;
+}
+
+.navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.content_navigation {
+  display: flex;
+  color: white;
+  height: 80px;
+  align-items: center;
+}
+
+.content_navigation a {
+  font-family: "Lato";
+  font-size: 15px;
+  padding: 28px 17px;
+  display: flex;
+  text-align: center;
+  margin-left: 0.6rem;
+}
+
+.markup {
+  padding-left: 28px;
+  height: 18px;
+  border-right: 1px solid white;
+}
+
+
+.spaceWhite {
+  min-width: 2%;
+}
+.perfil {
+  padding-left: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil img {
+  width: 35px;
+  height: 35px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+} 
+/* end of header */
 
 .flexbox{
     display: flex;
     height: 50%;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 50px;
     flex-direction: column;
     
 }
@@ -52,8 +139,7 @@ body{
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    
-    background-color: white;
+    background-color: #eee;
     display: none;
     overflow: hidden;
     width: 100%;
@@ -76,15 +162,7 @@ body{
   .title h1{
     margin-bottom: -19px;
     color: #1ed760;
-    font-family: 'Baloo 2', bold;
-    
-    
-    
-    
-
-
-
-    
+    font-family: 'Baloo 2', bold;    
   }
   
   .subs{
@@ -94,6 +172,9 @@ body{
     justify-content:start ;
     font-family: 'Baloo 2', cursive;
   }
+
+
+  
 
 
   
