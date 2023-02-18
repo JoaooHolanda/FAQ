@@ -1,4 +1,4 @@
 # FAQ
 
 #10 DAYS FOR MAKE THIS !
-#add Footer!
+#try to add some animation to pointer

@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
-    height: 100%;
+    height: 107%;
     width: 100%;
     
 }
@@ -101,5 +101,22 @@ body{
     height: 100px;
 }
 
+.container img{
+  max-width: 15px;
+  max-height: 15px;
+}
 
+.clicado{
+  animation: spin 1s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+}
+
+to{
+    transform: rotate(180deg);
+}
+}
   
