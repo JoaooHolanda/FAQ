@@ -1,3 +1,4 @@
 # FAQ
 
-#try to add some animation to pointer
+#finish the subscribe
+#until i've time
