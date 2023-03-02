@@ -22,10 +22,10 @@ body{
 }
 .flexbox{
     display: flex;
-    height: 55%;
+    /* height: 55%; */
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    /* padding: 40px; */
     flex-direction: column;
     
 }
@@ -72,6 +72,8 @@ body{
   .panel a{
     padding-left: 18px;
     color: black;
+    text-decoration: none;
+    
   }
 
   .title{
@@ -129,4 +131,11 @@ body{
     transform: rotate(90deg);
 }
 }
+
+
+/* @media only screen and (max-width :558px) { */
+  /* body{ */
+    /* background-color: #1ed760; */
+  /* } */
+/* } */
   
