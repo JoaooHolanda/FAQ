@@ -3,7 +3,7 @@ html,
 body{
     background-color: #eee;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     margin: 0;
     height: 107%;
     width: 100%;
@@ -81,12 +81,10 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 50px ;
-    height: 100px;
-    width: 500px;
   }
 
   .title h1{
-    margin-bottom: -19px;
+    /* margin-bottom: -19px; */
     color: #1ed760;
     font-family: 'Baloo 2', bold;    
   }
@@ -116,15 +114,15 @@ body{
 }
 .clicado img{
   animation: spin 1s ease-in-out;
-  width: 50px;
-  height: 50px;
+  /* width: 50px; */
+  /* height: 50px; */
 
 }
 
 
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+    transform:rotate(0deg)
 }
 
 100%{
@@ -133,9 +131,11 @@ body{
 }
 
 
-/* @media only screen and (max-width :558px) { */
-  /* body{ */
-    /* background-color: #1ed760; */
-  /* } */
-/* } */
+ @media only screen and (max-width :359px) {
+  .title{
+    text-align: center;
+  }
+  
+  
+} 
   

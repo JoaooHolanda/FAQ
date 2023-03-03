@@ -4,24 +4,20 @@
     background: #eee;
     height: 50px;
     width: 100%;
-    /* padding-top: 30cm; */
     color: black;
     padding: 5px;
-}
-
-.content hr{
-    background-color: black;
-}
-.content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    paddi
+    flex-direction: row;
+}
+#line{
+    width: 95%;
 }
 
 .footer img{
-    max-width:  50px;
-    max-height: 50px;
+    max-width:  25px;
+    max-height: 25px;
     top: 50%;
 }
 
