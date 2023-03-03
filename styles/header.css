@@ -12,12 +12,7 @@ header {
   
   .content_header {
     display: flex;
-    margin-left: 18%;
-    margin-right: 18%;
-    width: 1170px;
     min-height: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
     align-items: center;
     justify-content: space-between;
   }
@@ -83,4 +78,22 @@ header {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   } 
-  /* end of header */
+  
+  @media only screen and (max-width :558px) {
+    .content_header a{
+      visibility: hidden;
+      display: none;
+    }
+    .content_header{
+      width: auto;
+      text-align: center;
+  
+      
+    }
+    .perfil img{
+      visibility: hidden;
+    }
+    
+    
+  } 
+
