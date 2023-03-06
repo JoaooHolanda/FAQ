@@ -39,10 +39,16 @@ header {
   .content_navigation a {
     font-family: 'Baloo 2', bold;
     font-size: 15px;
+    text-decoration: none;
+    color: #ccc;
     padding: 28px 17px;
     display: flex;
     text-align: center;
     margin-left: 0.6rem;
+  }
+
+  .content_navigation a:hover{
+    color: #1ed760;
   }
   
   .markup {
@@ -92,8 +98,19 @@ header {
     }
     .perfil img{
       visibility: hidden;
+      display: none;
     }
-    
-    
+
+    .arrow{
+      visibility: visible;
+      display: block;
+    }
   } 
+
+
+/* Try */
+
+
+
+
 

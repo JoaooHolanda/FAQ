@@ -117,10 +117,7 @@ body{
   
 }
 
-
-
-
-
+/* Minimo de tamanho */
  @media only screen and (max-width :359px) {
   .title{
     text-align: center;
@@ -128,4 +125,12 @@ body{
   
   
 } 
+/* Tela Normal */
+@media only screen and (min-width :359px) {
+  .arrow{
+    visibility: hidden;
+    
+  }
   
+  
+} 

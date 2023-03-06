@@ -20,11 +20,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-for (i = 0; i < acc.length; i++){
 
-  acc[i].addEventListener("click", function() {;
+let navWrapper = document.querySelector('.nav-wrapper'),
+navToogler =  document.querySelector('.nav-toogler')
 
-    btn.classList.toggle("clicado")
-  })
-  
-}
+navToogler.addEventListener('click', function (event) {
+navWrapper.classList.toggle('active')
+})
