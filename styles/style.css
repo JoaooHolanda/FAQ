@@ -3,9 +3,9 @@ html,
 body{
     background-color: #eee;
     overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-y: hidden; */
     margin: 0;
-    height: 107%;
+    height: 100%;
     width: 100%;
     
 }
