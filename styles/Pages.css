@@ -1,0 +1,8 @@
+.articles h1{
+    color: #929292;
+    font-family: 'Baloo 2', cursive;
+}
+
+.articles p,ol{
+    font-family: 'Baloo Thambi 2', cursive;
+}
